@@ -1,0 +1,9 @@
+<suite name="NewTours Application">
+  
+  <test name="DataDrivenTesting">
+  
+    <classes>
+      <class name="com.day15.DataDriven.NewUserCreation"/>
+    </classes>
+  </test>
+</suite>

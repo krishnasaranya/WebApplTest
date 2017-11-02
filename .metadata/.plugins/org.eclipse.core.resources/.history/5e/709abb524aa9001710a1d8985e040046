@@ -1,0 +1,16 @@
+package newProject;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FirefoxBrowserAutomation {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\Program Files (x86)\\Mozilla Firefox\\geckodriver.exe ");
+
+		FirefoxDriver driver=new FirefoxDriver();
+		driver.get("http://gmail.com");
+		driver.navigate().to("https://facebook.com");
+		driver.navigate().back();
+	}
+
+}

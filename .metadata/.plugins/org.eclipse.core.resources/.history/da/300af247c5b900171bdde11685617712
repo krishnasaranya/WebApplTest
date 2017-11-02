@@ -1,0 +1,8 @@
+
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.day15.DataDriven.NewUserCreation"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

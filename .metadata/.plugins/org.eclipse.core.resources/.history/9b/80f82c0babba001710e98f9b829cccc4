@@ -1,0 +1,25 @@
+package practicePkg;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class WelcomeMercuryTours {
+
+//	WebElement Username = driver.findelement(By.linkText("UserName"))
+	@FindBy(linkText = "userName")
+	WebElement UserName;
+	@FindBy(linkText = "password")
+	WebElement Password;
+	@FindBy(linkText = "login")
+	WebElement Signin;
+	
+	public void FindAFlight(String u,String p)
+	{
+		UserName.sendKeys("u");
+		Password.sendKeys("p");
+		Signin.click();
+		
+	}
+
+} 

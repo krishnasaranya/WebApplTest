@@ -1,0 +1,9 @@
+<suite name="NewTours Application">
+  
+  <test name="DataDrivenTesting">
+  
+    <classes>
+      <class name="com.Testing.DataDriven"/>
+    </classes>
+  </test>
+</suite>

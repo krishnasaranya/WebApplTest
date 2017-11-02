@@ -1,0 +1,25 @@
+package practicePkg;
+
+
+
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
+public class Practice_Basics {
+
+	public static void main(String[] args) {
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://www.tsrtconline.in/oprs-web/");
+		driver.findElement(By.id("searchBtn")).click();
+		
+		Alert alt = driver.switchTo().alert();
+		alt.accept();
+		driver.close();
+}
+}

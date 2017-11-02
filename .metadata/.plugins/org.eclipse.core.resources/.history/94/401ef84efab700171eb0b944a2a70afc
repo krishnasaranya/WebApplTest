@@ -1,0 +1,35 @@
+package practicePkg;
+
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
+public class Practice_Basics {
+
+	public static void main(String[] args) {
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://www.newtours.demoaut.com/");
+		WebElement HeaderBlock = driver.findElementByXPath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td");
+		System.out.println(HeaderBlock.getText());
+		
+		List <WebElement> HeaderLinks = HeaderBlock.findElements(By.tagName("a"));
+		
+		for(int i=0;i<HeaderLinks.size();i++)
+		{
+			HeaderBlock=driver.findElementByXPath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td");
+			Sleeper.sleepTightInSeconds(5);
+			HeaderBlock.findElements(By.tagName("a")).get(i).getText();
+			HeaderBlock.findElements(By.tagName("a")).get(i).click();
+			driver.navigate().back();
+		}
+		
+		
+	}
+
+}

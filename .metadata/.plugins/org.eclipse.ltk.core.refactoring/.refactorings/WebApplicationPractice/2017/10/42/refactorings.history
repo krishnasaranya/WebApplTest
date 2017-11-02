@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ClickAllLinks_Screenshots_NewTours.java&apos; to &apos;WebApplicationPractice/src/day9&apos;&#x0D;&#x0A;- Original project: &apos;WebApplicationPractice&apos;&#x0D;&#x0A;- Destination element: &apos;WebApplicationPractice/src/day9&apos;&#x0D;&#x0A;- Original element: &apos;practicePkg.ClickAllLinks_Screenshots_NewTours.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;day9" element1="/src&lt;practicePkg{ClickAllLinks_Screenshots_NewTours.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1508242056801" units="1" version="1.0"/>
+</session>

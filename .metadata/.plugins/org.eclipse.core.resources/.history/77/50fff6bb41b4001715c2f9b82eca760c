@@ -1,0 +1,10 @@
+package day11;
+
+public class WebTableTesting_CapturingAllRows {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
